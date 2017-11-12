@@ -1,0 +1,12 @@
+name: txt_class_4Lib
+dependencies:
+  - python>=3.6
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - lxml 
+
