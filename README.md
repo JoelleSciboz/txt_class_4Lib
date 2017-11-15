@@ -1,10 +1,9 @@
 # txt_class_4Lib
 
 ## Structure
-* data: folder storing metadata and documents:
-	* to input in the workflow
-	* output by the workflow
-* develop: folder with version of in-development notebook
-* deliver: final notebooks for consumption
-* figures: graphs and figures
-* src: scripts and modules
+* data:
+	* acquisition
+	* pre-processing
+	* output
+* notebook: for experimentation, include additional explanations and analysis
+* src: Python scripts exported from notebook and cleaned

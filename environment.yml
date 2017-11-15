@@ -1,12 +1,17 @@
 name: txt_class_4Lib
+channels:
+- conda-forge
+- defaults
 dependencies:
   - python>=3.6
   - jupyter
   - numpy
   - pandas
+  - pypdf2
+ # - textract too bad not compatible with Python 3
   - matplotlib
+  - requests
   - seaborn
   - scipy
   - scikit-learn
-  - lxml 
-
+  - lxml
