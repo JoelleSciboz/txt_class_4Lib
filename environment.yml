@@ -5,13 +5,14 @@ channels:
 dependencies:
   - python>=3.6
   - jupyter
+  - nltk
   - numpy
   - pandas
-  - pypdf2
- # - textract too bad not compatible with Python 3
   - matplotlib
   - requests
   - seaborn
   - scipy
   - scikit-learn
   - lxml
+  - pip:
+    - textract
