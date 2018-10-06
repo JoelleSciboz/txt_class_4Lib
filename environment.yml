@@ -3,6 +3,8 @@ channels:
 - conda-forge
 - defaults
 dependencies:
+  - pip:
+    - textract==1.5.0
   - python>=3.6
   - jupyter
   - nltk
@@ -14,5 +16,3 @@ dependencies:
   - scipy
   - scikit-learn
   - lxml
-  - pip:
-    - textract
